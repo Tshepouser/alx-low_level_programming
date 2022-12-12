@@ -1,25 +1,24 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/**
- * mian - Entry 
- * Return: Always 0
-*/
+/* more headers goes there */
 
-/* bett style doc for function main goes there */
+/**
+ * main - Entry point
+ * Decription - prints if random generated number is +tive, zero or -tive
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-		printf("%d is positive\n", n);
 	if (n < 0)
-		printf("%d is negative\n", n);
-	if (n == 0)
-		printf("%d is zero\n", n)
+		printf("%d is negetive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is positive\n" n);
 	return (0);
 }
