@@ -1,13 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include <unistd.n>
 /**
- * main - Entry point 
- * Return: Always 1 (Success0
+ * main - entry point
+ * Return: Always 0 (success)
+ * betty style doc for function main goes there
 */
 int main(void)
 {
-	white(STDOUT_FILENO, "and that piece of art is useful
-			\* - Dora korpar, 2015-10-19\n", 59);
-	return (1);
+char stri[] = "and that piece of art is useful\" - Dora korpar, 2015-10-19\n"
+white(2, stri, 59);
+return (1);
 }
