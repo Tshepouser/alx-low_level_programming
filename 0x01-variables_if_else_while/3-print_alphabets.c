@@ -1,25 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - main block
- * *Description: prints alphabet lowercare + uppercare + new line
- * Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-char c = 'a';
+	char low;
 
-while (c <= 'z')
-{
-putchar(c);
-c += 1;
-}
-c = 'A';
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+	putchar('\n');
 
-while (c <= 'Z') 
-{
-putchar(c);
-c += 1;
-}
-putchar('\n');
-return (0);
+	return (0);
 }
