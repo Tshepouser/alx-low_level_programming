@@ -1,17 +1,25 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - main block
+ * *Description: prints alphabet lowercare + uppercare + new line
+ * Return: 0
 */
 int main(void)
 {
-	char c;
+char c = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	for (c + 'A'; c <= 'z'; c++)
-		putchar(c);
-	putchar('\n');
-	return (0);
+while (c <= 'z')
+{
+putchar(c);
+c += 1;
+}
+c = 'A';
+
+while (c <= 'Z') 
+{
+putchar(c);
+c += 1;
+}
+putchar('\n');
+return (0);
 }
