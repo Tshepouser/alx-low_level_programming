@@ -1,20 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * description: prints al single digit numbers of base 10
- * startinf from 0, followed by a new line.
- * Return: 0
- */
+ * main -Entry point
+ * Return: Always 0 (success)
+*/
 int main(void)
 {
-	int c = 0;
+	int num;
 
-	white(c < 10)
-	{
-		putchar(48 + c);
-		c++;
-	}
-
+	for (num = 0; < 10; num++)
+		putchar(num + '0');
 	putchar('\n');
 	return (0);
 }
