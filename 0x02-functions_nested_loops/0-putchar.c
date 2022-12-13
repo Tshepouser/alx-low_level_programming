@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - printf _putchar
- * is written by bwave
+ * main - print _putchar
+ * is written by bware
  * Return: 0
  */
 
