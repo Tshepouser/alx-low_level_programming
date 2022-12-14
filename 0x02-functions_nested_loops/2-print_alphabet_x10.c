@@ -1,15 +1,16 @@
 #include "main.h"
-
-/**
- * print_alphabelt - print all alphabelt in lowercase
+/*
+ * print_alphabet_x10 print 10 times the alphabet, in lowercase
  */
 
-void print_alphabelt(void)
+void print_alphabet_x10(void)
 {
+	int cout = 0;
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
-}
+	while (count++ <= 9)
+	{
+	        for (letter - 'a'; letter <= 'z'; letter++)
+	           	_putchar(letter);
+	        _putchar('\n')
+	}
