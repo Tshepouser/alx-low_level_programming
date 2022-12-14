@@ -1,9 +1,10 @@
 #include "main.h"
 
-/** main - print _putchar
+/**
+ * main - print _putchar
  * is written by bwave
- * Return: always 0
-*/
+ * Return: 0
+ */
 
 int main(void)
 {
